@@ -1,0 +1,14 @@
+Usage:
+* Copy the files from the zip-file into the plugins/keyword directory.
+* If you need a different language than english or dutch, create it in the
+  keyword/langs directory (it's just 1 sentence).
+* Add the plugin to your tinyMCE.init:
+    theme_advanced_buttons1_add : "keyword"
+* Make sure you use the advanced theme (otherwise the button won't show up)
+* Add the keyword list to your tinyMCE.init:
+    plugin_keyword_list : "<keyword1>=<data1>;<keyword2>=<data2>..."
+* Use the addtional 'plugin_keyword_operator' to change the key/value separator:
+    plugin_keyword_operator : "|"
+
+In case of trouble, contact the author at jthijssen [at] noxlogic.nl or
+check the homepage at http://www.adayinthelifeof.nl/?p=64
